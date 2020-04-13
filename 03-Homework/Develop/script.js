@@ -14,21 +14,26 @@ function writePassword() {
   }
   while (between <8 || between >128);
   
-  var lower =confirm("would you like lower case characters?");
-  var upper =confirm("Would you like upper case characters?");
-  var numbers =confirm("Would you like any numbers in your password?");
-  var special =confirm("Would you like any special characters in your password?");
+  do {
+    var lower =confirm("Would you like lower case characters?");
+    var upper =confirm("Would you like upper case characters?");
+    var numbers =confirm("Would you like any numbers in your password?");
+    var special =confirm("Would you like any special characters in your password?");
+    if (!(lower||upper||numbers||special)){
+      alert ("Invalid response, you must say yes to one of the character types. Please try again!"); 
+    }
+  }
+  while (!(lower||upper||numbers||special));
 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-
-
 }
 
+function generatePassword(){
 
+}
 // answer to promts go here 
 
 // Add event listener to generate button
