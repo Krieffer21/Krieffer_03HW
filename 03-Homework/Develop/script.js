@@ -32,8 +32,16 @@ function writePassword() {
 }
 
 function generatePassword(){
+  var num = "0123456789"
+  var spc= " !\"#$%&\'()*+,-./:;<=>?@[\\]^_\`{|}~";
+  var up= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var low= "abcdefghijklmnopqrstuvwxyz";
 
+  for (var i = 0; i < between; i++) {
+  }
 }
+
+
 // answer to promts go here 
 
 // Add event listener to generate button
