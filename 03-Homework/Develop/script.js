@@ -25,34 +25,21 @@ function writePassword() {
   }
   while (!(lower||upper||numbers||special));
 
-  var password = generatePassword();
+  var password = generatePassword(lower,upper,numbers,special,between);
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 }
 
-function generatePassword(){
-  var num = "0123456789"
+function generatePassword(lc,uc,nbr,sp,plength){
+  var num = "0123456789";
   var spc= " !\"#$%&\'()*+,-./:;<=>?@[\\]^_\`{|}~";
   var up= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var low= "abcdefghijklmnopqrstuvwxyz";
+  var select= "";
 
   for (var i = 0; i < between; i++) {
   }
 }
 
-
-// answer to promts go here 
-
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// validate input so that at least 1 character type was selected otherwise promt them invalide input try again.
-// validate input the user imput is correct and what they wanted
-
-// take imput and give output. 
-
-
-
-
-// alert("Congratulations your random password is") + (password?))
