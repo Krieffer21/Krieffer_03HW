@@ -51,9 +51,11 @@ function generatePassword(lc,uc,nbr,sp,plength){
     select= select + spc;   
   }
 
-  for (var i = 0; i < between; i++) {
+  for (var i = 0; i < plength; i++) {
+    var ran = Math.floor(Math.random() * select.length);
+    pword = pword + select.charAt(ran);
   }
-
+  return pword;
 }
 
 generateBtn.addEventListener("click", writePassword);
