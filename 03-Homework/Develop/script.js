@@ -36,9 +36,24 @@ function generatePassword(lc,uc,nbr,sp,plength){
   var up= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var low= "abcdefghijklmnopqrstuvwxyz";
   var select= "";
+  var pword= "";
+
+  if (lc) {
+    select= select + low;   
+  }
+  if (uc) {
+    select= select + up;   
+  }
+  if (nbr) {
+    select= select + num;   
+  }
+  if (sp) {
+    select= select + spc;   
+  }
 
   for (var i = 0; i < between; i++) {
   }
+
 }
 
 generateBtn.addEventListener("click", writePassword);
