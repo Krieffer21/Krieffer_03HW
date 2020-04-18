@@ -5,7 +5,7 @@
 ### Do While Loop
    The do while loop is efficient for this assignment because it says preform, this, then check the condition. In the screen shot below the 'this' I refered to are the alerts that confirm what criteria the user would like in their password. If they do not pick any of the criteria it will alert them to 'try again', until they chose one of the criteria the loop will keep running, until the condition (while) is false. 
 
-[alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/doWhile.png)
+![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/doWhile.png)
 
 ### parseInt
   The block of code shown below, after alerting the user, it prompts them to input a number between the defined perameters. When defining the variable 'between', it takes the length and makes it an integer so we can do calculations. 'parseInt', converts a string into an integer which is helpfull for the do while loop to run efficiently and in defining the contition. 
