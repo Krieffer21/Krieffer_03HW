@@ -12,9 +12,7 @@
   
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/specialCharacters.png)
 
-
-
-
-
+### charAt
+  The code shown in the screnshot below is used to randomly generate a password with the length input by the user. The last line uses 'select.charAt(ran)' as a method for calling the character at the designated index. In other words, it gets the charater at index 0-9. 
 
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/charAt.png)
