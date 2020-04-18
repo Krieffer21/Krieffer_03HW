@@ -26,6 +26,6 @@
 ### Password Generator Gif
   The gif below shows what the user will see when using the random password generator. As you can see the user is altered the various prompts based on the criteria they choose from. If they do not input a valid response they will be alerted to 'try again!', until they input a valid response.
   
-![](name-of-giphy.gif)
+![](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/RandomPassword.gif)
   
   
