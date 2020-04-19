@@ -18,8 +18,8 @@
   
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/SpecCharacters.png)
 
-### charAt
-  The code shown in the screenshot below is used to randomly generate a password with the length input by the user. The last line uses 'select.charAt(ran)' as a method for calling the character at the designated index. In other words, it gets the character at index 0-9. 
+### Random Password Generation
+  The code shown in the screenshot below is used to randomly generate a password with the length specified by the user. 
 
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/charAt.png)
 
