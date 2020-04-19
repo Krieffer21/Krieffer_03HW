@@ -2,16 +2,16 @@
 
 ## 03 JavaScript: Password Generator
   This homework we were asked to create an application that generates a random password based on the criteria selected by the user. 
-
-### Do While Loop
-   The do while loop is efficient for this assignment because it says perform, 'this', then check the condition. In the screenshot below the 'this' I referred to are the alerts that confirm what criteria the user would like in their password. If they do not pick any of the criteria it will alert them to 'try again', until they choose one of the criteria, the loop will keep running; until the condition (while) is false. 
-
-![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/doWhile.png)
-
-### parseInt
-  The block of code shown below, after alerting the user, it prompts them to input a number between the defined parameters. When defining the variable 'between', it takes the length and makes it an integer so we can do calculations. 'parseInt', converts a string into an integer which is helpful for the do while loop to run efficiently and in defining the condition. 
+  
+  ### Asking for Password Length
+  This do while loop promts the user to input their desired password length. If they pick a number that it not between 8-128 it will alert them to, 'try again!' until they pick a number within the defined criteria. 
 
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/parseInt.png)
+
+### Asking for Character Type Criteria
+   This do while loop is where I ask for the users criteria for the password. In the screenshot below are the alerts that confirm what criteria the user would like in their password. If they do not pick any of the criteria it will alert them to 'try again', until they choose one of the criteria.  
+
+![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/doWhile.png)
 
 ### Special Characters
   The screenshot below shows the defined variables for the character types as asked for in the acceptance criteria. The special characters listed in the variable 'spc' are escaped by using the backslash, \. The backslash means to escape, not close the argument but rather make it a character. This way when generating the random password, if chosen, the special characters can be picked from the string and used as a character.    
