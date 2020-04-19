@@ -16,7 +16,7 @@
 ### Special Characters
   The screenshot below shows the defined variables for the character types as asked for in the acceptance criteria. The special characters listed in the variable 'spc' are escaped by using the backslash, \. The backslash means to escape, not close the argument but rather make it a character. This way when generating the random password, if chosen, the special characters can be picked from the string and used as a character.    
   
-![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/specialCharacters.png)
+![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/SpecCharacters.png)
 
 ### charAt
   The code shown in the screenshot below is used to randomly generate a password with the length input by the user. The last line uses 'select.charAt(ran)' as a method for calling the character at the designated index. In other words, it gets the character at index 0-9. 
