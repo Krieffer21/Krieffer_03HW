@@ -14,7 +14,7 @@
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/doWhile.png)
 
 ### Storing Different Character Types
-  Based on the useres choices the code below will collect all possible character types that can be used in their password.    
+  Based on the users choices the code below will collect all possible character types that can be used in their password.    
   
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/SpecCharacters.png)
 
@@ -24,8 +24,7 @@
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/charAt.png)
 
 ### Password Generator Gif
-  The gif below shows what the user will see when using the random password generator. As you can see the user is altered the various prompts based on the criteria they choose from. If they do not input a valid response they will be alerted to 'try again!', until they input a valid response.
+  The gif below shows what the user will see when using the random password generator. As you can see the user is alerted the various prompts based on the criteria they choose from. If they do not input a valid response they will be alerted to 'try again!', until they input a valid response.
   
 ![](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/RandomPassword.gif)
-  
   
