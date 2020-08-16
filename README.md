@@ -24,6 +24,7 @@
 ![alt text](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/charAt.png)
 
 ### Password Generator Gif
+  Deployed app: https://krieffer21.github.io/Krieffer_03HW/
   The gif below shows what the user will see when using the random password generator. As you can see the user is alerted the various prompts based on the criteria they choose from. If they do not input a valid response they will be alerted to 'try again!', until they input a valid response.
   
 ![](https://github.com/Krieffer21/Krieffer_03HW/blob/master/03-Homework/Assets/ScreenShots/RandomPassword.gif)
