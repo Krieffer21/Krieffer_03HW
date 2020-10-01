@@ -1,4 +1,4 @@
-# Krieffer_03HW
+# Krieffer_PasswordGenerator
 
 ## 03 JavaScript: Password Generator
   This homework we were asked to create an application that generates a random password based on the criteria selected by the user. 
